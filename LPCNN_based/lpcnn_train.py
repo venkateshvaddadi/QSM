@@ -22,9 +22,9 @@ from modules.loss_updated import *
 from modules.model_for_dw import Dw
 from modules.config import Config
 from modules.model_for_dw_unet import QSMnet
-from deepqsm import DeepQSM
-from WideResnet import WideResNet
-from qsmnet import QSMnet
+from modules.deepqsm import DeepQSM
+from modules.WideResnet import WideResNet
+from modules.qsmnet import QSMnet
 
 #%%
 def z_real_to_z_complex(z_real):
